@@ -1,0 +1,8 @@
+git init
+touch .gitignore
+git add .
+git commit -m "init commit"
+git remote add origin https://github.com/RKdev/$(pwd | awk -F / '{print $NF'})
+git remote -v
+git push origin master
+
