@@ -1,0 +1,2 @@
+ls |  xargs -I % sh -c 'printf "\n"; echo "%"; ls -alF "%"'
+
