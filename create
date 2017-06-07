@@ -1,1 +1,1 @@
-ls | grep -v ".md" |  xargs -I % sh -c 'printf "\n"; echo "%"; chmod +x "%"; sudo cp -f "%" /usr/local/bin'
+ls | grep -v "README.md" |  xargs -I % sh -c 'printf "\n"; echo "%"; chmod +x "%"; sudo cp -f "%" /usr/local/bin'
