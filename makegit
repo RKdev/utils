@@ -1,3 +1,4 @@
+#Note: requires repo to exist already
 git init
 touch .gitignore
 git add .
