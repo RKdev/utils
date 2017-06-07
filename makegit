@@ -1,9 +1,10 @@
 #Note: requires repo to exist already
+repo="https://github.com/RKdev/"
 git init
 touch .gitignore
 git add .
 git commit -m "init commit"
-git remote add origin https://github.com/RKdev/$(pwd | awk -F / '{print $NF'})
+git remote add origin $repo$(pwd | awk -F / '{print $NF'})
 git remote -v
 git push origin master
 
