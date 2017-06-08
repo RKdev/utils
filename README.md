@@ -4,11 +4,11 @@ One-off scripts and tools
 
 run _create_ to add chmod+x all and copy to /usr/local/bin
 
-cp to /usr/local/bin
+workflow:
 
-sudo chmod +x _script name_
-
-Profit!
+* cp to /usr/local/bin
+* sudo chmod +x _script name_
+* Profit!
 
 _create_ - add chmod+x all and copy to /usr/local/bin
 
