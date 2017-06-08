@@ -14,6 +14,6 @@ _create_ - add chmod+x all and copy to /usr/local/bin
 
 _makegit_ - make a new repo on github. Create directory on local machine, cd to directory and execute this script to automatically generate and push new repo
 
-_myip_ - returns your ip address
+_myip_ - returns your _external_ ip address
 
 _xargs_template_ - a handy reference to remember how to use xargs quickly
