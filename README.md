@@ -16,4 +16,6 @@ _makegit_ - make a new repo on github. Create directory on local machine, cd to 
 
 _myip_ - returns your _external_ ip address
 
+_terrafarm_ - runs terraform apply referencing aws creds stored in ~/.aws
+
 _xargs_template_ - a handy reference to remember how to use xargs quickly
