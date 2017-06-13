@@ -21,3 +21,6 @@ _tup_ - runs terraform apply referencing aws creds stored in ~/.aws
 _tdown_ - runs terraform destroy referencing aws creds stored in ~/.aws
 
 _xargs_template_ - a handy reference to remember how to use xargs quickly
+
+_bash_profile_go - a .bash_profile file to add go to the path in OSX
+
