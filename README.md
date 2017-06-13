@@ -24,3 +24,5 @@ _xargs_template_ - a handy reference to remember how to use xargs quickly
 
 _bash_profile_go_ - a .bash_profile file to add go to the path in OSX (create .bash_profile in ~ and add contents)
 
+_gotour_ - starts the go tool tour
+
