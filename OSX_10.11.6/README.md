@@ -26,3 +26,6 @@ _bash_profile_go_ - a .bash_profile file to add go to the path in OSX (create .b
 
 _gotour_ - starts the go tool tour
 
+_aws_makecreds_ - creates AWS credentials from .cvs file downloaded from AWS Console, secure delete .cvs file
+
+
