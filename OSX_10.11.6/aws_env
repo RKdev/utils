@@ -1,0 +1,4 @@
+#!/bin/bash
+export AWS_ACCESS_KEY_ID=$(cat ~/.aws/credentials | awk 'NR == 2{print $3}')
+export AWS_SECRET_ACCESS_KEY="$(cat ~/.aws/credentials | awk 'NR == 3{print $3}')"
+

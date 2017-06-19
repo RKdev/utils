@@ -24,4 +24,5 @@ _gotour_ - starts the go tool tour
 
 _aws_makecreds_ - creates AWS credentials from .cvs file downloaded from AWS Console, secure delete .cvs file
 
+_aws_env_ - creates environment variables from AWS credentials file. **Note** must use execute using the _source_ command eg. _source ./aws_env_ This is because environment variables cannot be set by a script, because the script runs in it's own environment. _source_ ensures the script runs in the calling environment
 
