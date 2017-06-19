@@ -16,10 +16,6 @@ _makegit_ - make a new repo on github. Create directory on local machine, cd to 
 
 _myip_ - returns your _external_ ip address
 
-_tup_ - runs terraform apply referencing aws creds stored in ~/.aws
-
-_tdown_ - runs terraform destroy referencing aws creds stored in ~/.aws
-
 _xargs_template_ - a handy reference to remember how to use xargs quickly
 
 _bash_profile_go_ - a .bash_profile file to add go to the path in OSX (create .bash_profile in ~ and add contents)
